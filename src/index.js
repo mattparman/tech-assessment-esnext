@@ -6,10 +6,10 @@ registerBlockType( 'parmanguten/test-block', {
     category: 'layout',
 
     edit( { className } ) {
-        return <p className={ className }>Hello World, step 2 (from the editor, in green).</p>;
+        return <p className={ className }>Whats up Automattic! You are in my admin.</p>;
     },
 
     save() {
-        return <p>Hello World, step 2 (from the frontend, in red).</p>;
+        return <p>"Everything should be made as simple as possible, but not simpler."</p>;
     },
 } );

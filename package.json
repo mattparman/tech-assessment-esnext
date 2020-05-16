@@ -1,0 +1,15 @@
+{
+  "name": "parman-guten",
+  "version": "1.0.0",
+  "description": "Test block for technical assessment",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp-scripts build"
+  },
+  "author": "mattparman",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "9.1.0"
+  }
+}
